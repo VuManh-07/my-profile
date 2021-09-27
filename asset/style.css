@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.space{
+    padding: 0 24px;
+}
+.icon{
+    font-size:16px;
+    color: #fff;
+    margin: 0 6px;
+}
+.white{
+    color: #fff;
+}
+
+
+#main{
+
+}
+#header{  
+    height: 64px;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    line-height: 64px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+#header .GioiThieu{
+    display: flex;
+    left: 0;
+}
+#header .GioiThieu .my-profile{
+    opacity: 0.8;
+}
+
+#header .nav{
+    margin-right: 128px;
+    display: flex;
+    list-style-type: none;
+}
+#header .nav a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+#header .nav li:hover a{
+    background-color: #ccc;
+    color: #000;
+}
+#header .header-icon{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    line-height: 64px;
+}
+#header .header-icon a{
+    text-decoration: none;
+}
+#header .header-icon a i:hover{
+    opacity: 0.8;
+}
+#slider{
+    margin-top: 64px;
+    padding-top: 50%;
+    background: url('../asset/IMG/chan_dung.jpg') top center / cover no-repeat;
+    position: relative;
+}
+#slider .text-content{
+    padding: 11px 20px;
+    background: #2121214D;
+    position: absolute;
+    bottom: 128px;
+    color: #fff;
+    font-size: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-section{
+    padding: 64px 25px 0;
+    text-align: center;
+}
+.section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.section-sub-heading{
+    font-size: 15px;
+    text-align: center;
+    margin: 25px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .main-content{
+    margin-right: 24px;
+}
+#content .main-content .content-information li{
+    list-style: none;
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.main-content .content-information .thongtin{
+    float: right;
+    color: #000;
+    font-size: 15px;
+
+}
+.main-content{
+    flex: 2;
+}
+.news{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+.news-1{
+    background-color: #f700f7;
+    border-radius: 10px;
+    padding: 16px;
+    
+}
+.news-2{
+    background-color: #02f7f7;
+    border-radius: 10px;
+    padding: 16px;
+    
+}
+#footer{
+    background-color: #185aca;
+    height: 500px;
+}
+#footer .footer-icon{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+.footer2__icon{
+    display: flex;
+    justify-content: center; 
+}
+.footer2__icon a{
+     text-decoration: none;
+}
+.footer2__icon li{
+list-style-type: none;
+}
+
+
+.footer-icon1{
+    font-size: 50px;
+    color: #fff;
+    padding: 0 5px;
+}
+.footer3{
+    display: flex;
+    justify-content: center;
+}
+
+.chung{
+    padding: 20px 30px;
+}
+.chung li{
+    font-size: 14px;
+    color: #fff;
+    list-style-type: none;
+    padding: 4px 0;
+    opacity: 0.9;
+}
